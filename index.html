@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arnab Daw | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="shortcut icon" type="x-icon" href="Images/portfolio3.jpg" />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400&display=swap);
+    </style>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@200;300&family=BioRhyme:wght@300;400&display=swap);
+      @import url(https://fonts.googleapis.com/css?family=Bungee+Shade);
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script>
+      jQuery(function ($) {
+        var $navbar = $("header");
+        $(window).scroll(function (event) {
+          var $current = $(this).scrollTop();
+          if ($current > 0) {
+            $navbar.addClass("navbar-color");
+          } else {
+            $navbar.removeClass("navbar-color");
+          }
+        });
+      });
+    </script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div id="bg"></div>
+      <header class="header">
+        <a href="#" class="logo">ARNAB</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hi, I'm Arnab</h3>
+          <h3><span class="text"></span></h3>
+          <h1>Based in India.</h1>
+          <a href="#" class="btn">HIRE ME</a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="Images/pngwing.com.png" alt="" />
+        </div>
+
+        <div class="about-content">
+          <h2 class="heading">About <span>Me</span></h2>
+          <h3>
+            <span>Java Full Stack Developer</span><br />
+            Crafting seamless, scalable web solutions with <br />
+            full stack java expertise, from intuitive<br />
+            front-end to powerful back-ends.<br />
+          </h3>
+          <p>
+            <span>Web Development</span> - <br />
+            React , JavaScript , HTML , CSS , MySQL ,<br />
+            MongoDB etc.<br />
+          </p>
+          <p>
+            <span>Java Development</span> - <br />
+           Intellij IDEA , Spring Boot , Hibernate , Jenkins , <br />
+           Docker , Kubernetes , Maven <br /> 
+          </p>
+          <p>
+            <span>Education</span> - <br />
+            B.tech in Computer Science & Engineering- <span>NIT Agartala</span><br />
+            Graduation: <span>July 2026</span>
+          </p>
+          <a href="#" class="btn">READ MORE</a>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+          <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
+            <p>
+              React , JavaScript, HTML,<br />
+              CSS, Tailwind , MongoDB , MySQL ,<br />
+              PostgreSQL , PHP and Other JS<br />
+              Plugins.<br />
+            </p>
+            <a href="#" class="btn">READ MORE</a>
+          </div>
+
+          <div class="services-box">
+            <i class='bx bxl-java' ></i>
+            <h3>Java Full-Stack Development</h3>
+            <p>
+              Intellij IDEA , Spring Boot , Hibernate ,<br />
+               Jenkins, Docker , Kubernetes , Maven,  <br />
+                JSP , RESTful APIs, GitHub , MySQL . <br />
+              <br />
+            </p>
+            <a href="#" class="btn">READ MORE</a>
+          </div>
+
+          <div class="services-box">
+            <i class='bx bxl-aws'></i>
+            <h3>AWS Devops</h3>
+            <p>
+              AWS CodePipeline , AWS CodeBuild ,<br />
+              AWS CodeDeploy , AWS CodeCommit<br />
+              AWS Lamda . <br />
+             
+            </p>
+            <a href="#" class="btn">READ MORE</a>
+          </div>
+        </div>
+      </section>
+        
+      <section class="contact" id="contact">
+        <h2 class="heading"><span>Contact</span></h2>
+        <p>
+          I am available to work and freelance.<br />
+          Connect with me via Email - <span>arnabdaw1@gmail.com</span><br />
+        </p>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-text">
+          <p>
+            Copyright 2024 | Arnab Daw | All right reserved
+          </p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/particles.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
